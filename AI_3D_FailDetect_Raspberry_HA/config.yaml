@@ -1,0 +1,47 @@
+# =====================================================
+#  Configurazione nodo AI – Rilevamento guasti stampa 3D
+#  Questo file deve essere copiato e rinominato config.yaml
+#  e adattato con i valori reali della tua rete.
+# =====================================================
+
+# -----------------------------------------------------
+# URL stream MJPEG della webcam
+# Formato tipico IPcam con mjpeg-streamer:
+#   http://<IP_CAM>:8080/?action=stream
+# -----------------------------------------------------
+stream_url: "http://<IP_CAM>:8080/?action=stream"
+
+# Percorso del modello YOLO
+model_path: "model/best.pt"
+
+# Risoluzione immagine YOLO
+imgsz: 640
+
+# Confidenza minima per considerare un errore
+min_confidence: 0.60
+
+# Classi da considerare errore
+error_classes:
+  - "Spaghetti"
+  - "Detached Filament"
+  - "Detached Layer"
+  - "Layer Defect"
+
+# Classi da monitorare come avviso
+warning_classes:
+  - "Singular String"
+  - "Stringing"
+
+# URL Webhook Home Assistant
+# Trovi la URL in Impostazioni → Automazioni → Webhook
+ha_webhook_url: "http://<HA_IP>:8123/api/webhook/ai_3d_fail"
+
+# Timeout chiamata al webhook
+ha_webhook_timeout: 10
+
+# Cartelle locali per immagini e risultati
+frames_dir: "frames"
+results_dir: "runs/detect"
+
+# Log debug su console
+log_debug: true
