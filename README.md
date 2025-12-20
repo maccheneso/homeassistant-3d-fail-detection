@@ -24,6 +24,27 @@ More classes can be added by retraining the model.
 
 ---
 
+# 📸 Demo – screenshots reali
+
+## Dashboard Home Assistant
+
+![Dashboard printer](AI_3D_FailDetect_Raspberry_HA/assets/screenshot_dashboard.jpg)
+
+---
+
+## Notifica push con alert AI
+
+![AI notification](AI_3D_FailDetect_Raspberry_HA/assets/screenshot_push_notification.png)
+
+---
+
+## YOLO rileva spaghetti – bounding box
+
+![YOLO spaghetti detect](AI_3D_FailDetect_Raspberry_HA/assets/spaghetti_detection.png)
+![YOLO spaghetti detect2](AI_3D_FailDetect_Raspberry_HA/assets/example_fail_frame.jpg)
+
+---
+
 ## 🔧 System Architecture (overview)
 
 Webcam → Raspberry Pi AI Server → Webhook → Home Assistant → Notification
