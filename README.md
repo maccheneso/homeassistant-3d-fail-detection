@@ -24,24 +24,20 @@ More classes can be added by retraining the model.
 
 ---
 
-# 📸 Demo – screenshots reali
+# 📸 Demo – Screenshots
 
-## Dashboard Home Assistant
-
-![Dashboard printer](AI_3D_FailDetect_Raspberry_HA/assets/screenshot_dashboard.jpg)
-
----
-
-## Notifica push con alert AI
-
-![AI notification](AI_3D_FailDetect_Raspberry_HA/assets/screenshot_push_notification.png)
+## Dashboard Home Assistant and Push notification-alert AI
+<p float="left">
+  <img src="AI_3D_FailDetect_Raspberry_HA/assets/screenshot_dashboard.jpg" width="33%">
+  <img src="AI_3D_FailDetect_Raspberry_HA/assets/screenshot_push_notification.png" width="33%" />
+</p>
 
 ---
 
-## YOLO rileva spaghetti – bounding box
+## YOLO Takes Over Spaghetti – Bounding Box
 
-![YOLO spaghetti detect](AI_3D_FailDetect_Raspberry_HA/assets/spaghetti_detection.png)
-![YOLO spaghetti detect2](AI_3D_FailDetect_Raspberry_HA/assets/example_fail_frame.jpg)
+<img src="AI_3D_FailDetect_Raspberry_HA/assets/spaghetti_detection.png" width="600">
+<img src="AI_3D_FailDetect_Raspberry_HA/assets/example_fail_frame.jpg" width="600">
 
 ---
 
