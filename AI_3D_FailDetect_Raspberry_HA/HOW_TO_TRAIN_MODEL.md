@@ -1,7 +1,5 @@
 # 💡 How to train a model for AI_3D_FailDetect
 
-This project does **not include** model weights (`best.pt`), to respect the licenses of original datasets.
-
 This guide allows you to:
 
 ✔ obtain a public dataset  
@@ -239,3 +237,4 @@ Does it support multi-class datasets?
 
 Which resolution is recommended?  
   - 640 or 720 px are good compromises.
+
