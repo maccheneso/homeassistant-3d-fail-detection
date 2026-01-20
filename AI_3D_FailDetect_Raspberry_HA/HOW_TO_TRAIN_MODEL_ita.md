@@ -1,7 +1,5 @@
 # 💡 Come addestrare un modello per AI_3D_FailDetect
 
-Questo progetto **non include** pesi di modelli (`best.pt`), per rispetto delle licenze dei dataset originali.
-
 Questa guida ti permette di:
 
 ✔ ottenere un dataset pubblico  
@@ -213,4 +211,5 @@ Supporta dataset multi-classe?
   - sì, basta aggiungere classi in config.yaml.
 
 Che risoluzione usare?
+
   - 640 o 720 px sono un buon compromesso.
