@@ -1,6 +1,8 @@
-# AI Fail Detection – Raspberry Pi + Home Assistant  
+# AI Fail Detection – Raspberry Pi + Home Assistant
 _Automatic detection of 3D printing errors (local, no cloud)_
 
+This folder contains the Raspberry AI server + Home Assistant integration package  
+See the repository root README for the overall project overview.
 
 ## 1. Objective of the project
 
@@ -66,7 +68,7 @@ On Home Assistant:
   - `switch.<printer_plug_name>`
   - `sensor.<printer_power_sensor_name>`
 
-## 3. Contents of the ZIP (project to copy to Raspberry)
+## 3. Contents of the repository (project to copy to Raspberry)
 
 Main folder, e.g. `/home/pi/3d_ai_faildetect`:
 
@@ -90,7 +92,7 @@ Main folder, e.g. `/home/pi/3d_ai_faildetect`:
 └─ README.md            # this file
 ```
 
-The ```venv/``` folder is not included in the ZIP: it is created by ```setup.sh```.
+The ```venv/``` folder is not included in the repository: it is created by ```setup.sh```.
 
 ## 4. Installation on Raspberry Pi (AI node)
 
@@ -112,7 +114,7 @@ cd /home/pi/3d_ai_faildetect
 
 ### 4.2 Setup script (create virtualenv + dependencies)
 
-_The `setup.sh` script is already included in the ZIP, inside the project folder:_
+_The `setup.sh` script is already included in the repository, inside the project folder:_
 
 ```bash
 /home/pi/3d_ai_faildetect/setup.sh
